@@ -1,22 +1,154 @@
-ol {
-  margin-left: -40px;
-  margin-top: -20px;
-  list-style-position: inside;
+body{margin: 0px;}
+.container{
+    width: 1200px;
+    margin: 0 auto;
 }
-
-/* Write your CSS below, don't change the rules above. */
-p{
-  color: red;
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.brading{width:500px;}
+.nav{width:700px;}
+.brading .title{
+    color: #4073de;
+    font-size: 35px;
 }
-.note{
-  font-size: 20px;
+.nav ul {
+    margin: 0px;
 }
-#id-selector-demo{
-  color: green;
+.nav ul li{
+    float: left ;
+    list-style:none;
+    padding: 25px 13px;
 }
-li[value="4"]{
-  color: blue;
+.nav ul li:hover{
+    background-color: #4b5de0;
 }
-*{
-  text-align: center;
+.nav ul li:hover a{
+    color: white;
+}
+.nav ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#slider img{
+    width: 100%;
+}
+.box{
+    width: 25%;
+}
+.box-content{
+    padding: 0px 15px;
+}
+.box-content div{
+    padding: 15px;
+}
+.box-content div .title{
+    font-size: 35px;
+    color: white;
+}
+.box-content div p{
+    color: white;
+    font-size: 20px;
+}
+.bg-01{ 
+    background-color: #ffaf00;
+    background: linear-gradient(0deg, rgba(255,135,21,1) 0%, rgba(255,174,1,1) 100%);
+    
+}
+div#feature-new{
+    margin-top:-124px ;
+    z-index: 999;
+    position: sticky;
+}
+#news { margin-top: 30px;}
+.news .box{
+    width: 50%;
+    padding-bottom: 30px;
+}
+.news .box-content img{
+    width: 100%;
+}
+.box-content .box-content-text{
+    background-color: #434343;
+    padding: 50px;
+    min-height: 280px;
+}
+.news .box-content .title{
+    font-size: 30px;
+}
+.news .box-content button{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    padding: 10px 15px;
+    border-width: 0px;
+    color: white;
+}
+.news .box-content button{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#new2{
+    background-image: url(image/banner2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#new2 .box{ width: 50%; }
+#new2 .box-content{ padding: 0px 15px }
+#new2 .box-content-text{
+    padding: 50px;
+    background-color: #e0127c7c;
+    min-height: 300px;
+}
+#new2 .box button{
+    padding: 10px 20px;
+    border-width: 0px;
+}
+#news3{
+    padding-top: 30px;
+}
+#news3 .box-content .box-content-text{
+    background: rgb(255,21,21);
+    background:  linear-gradient(0deg,rgba(255,21,21,1) 0%, rgba(255,244,1,1) 100%);
+}
+#news3 ul, #news3 ul li{
+    margin: 0px;
+}
+#news3 ul li{
+    padding-left: real;   
+}
+#news3 ul li{
+    padding-left: 15px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px ;
+}
+#news3 ul{
+    list-style-image: url(image/);
+}
+.box-review{
+    width: 25%;
+}
+.box-review .box-review-content{
+    padding: 15px;
+    margin-top: 100px;
+}
+.box-review .box-review-content .box-review-text{
+    background: #f3f3f3;
+    padding: 15px;
+}
+.box-review-text p span{
+    color: #ff6300;
+    font-size: 35px;
+}
+.box-review .img img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.box-review .img{
+    text-align: center;
+    margin-top: -100px;
 }
