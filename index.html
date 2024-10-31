@@ -2,36 +2,66 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>CSS Properties</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <title>CSS Box Model</title>
     <style>
-      body {
-        background-color: cornflowerblue;
-        color: white;
-        font-size: 18px;
-      }
+      /* Write your CSS code here */
+      .box1{
+        width: 200px;
+        height:200px;
+        background-color: cadetblue;
+        border-color: black ;
+        padding: 20px;
 
-      /* Don't change the CSS above, add Your CSS below */
+        border: 10px solid black;
+      }
+      .box2{
+        width: 200px;
+        height:200px;
+        background-color: gold;
+        border-right: 10px dashed black;
+        border-left: 10px dashed black;
+        border-top: 20px dashed black;
+        border-bottom: 20px dashed black;
+        margin-left:260px;
+      }
+      .box3{
+        width: 200px;
+        height:200px;
+        background-color: indianred;
+        border: 10px dotted black;
+        margin-left: 40px;
+      }
     </style>
   </head>
 
   <body>
-    <h1>Important CSS Properties</h1>
-    <p style="color: coral;">Color</p>
-    <p style="font-size: 2em; ">Font Size</p>
-    <p style="font-weight: 900px;">Font Weight</p>
-    <p style="font-family: Caveat, serif;">Font Family</p>
-    <p style="text-align: right;">Text Align</p>
+    <!-- TODOs:
+1. Tạo 3 hộp (box) sử dụng thẻ div
+2. Thiết lập kích thước cho box cao 200px rộng 200px
+3. Thiết lập màu nền của mỗi box lần lượt là cadetblue, gold và indianred
+4. Thêm một đoạn văn sử dụng thẻ <p> bên trong đối tượng div đầu tiên và thêm nội dung dưới đây:
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+    id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+    dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.
+5. Thiết lập 1st div có padding 20px xung quanh và đường viền là black 10px.
+6. Sửa kiểu của phần tử <p> để xóa toàn bộ lề.
+Hint: Use the CSS inspector in Chrome.
+7. Đặt div thứ 2 có đường viền 20px ở trên cùng và dưới cùng; đường viền bên trái và bên phải là 10px (xem hình goal.png)
+8. Đặt div thứ 3 có đường viền 10px
+9. Đặt lề cho các div sao cho mỗi góc hộp chạm vào góc hộp kia. (Xem hình ảnh goal.png)
+-->
+<div class="box1">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+    id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+    dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.
+  </p>
+</div>
+<div class="box2">
 
-    <!-- TODOs
-  1. Đổi màu của <p>Color</p> thành màu "coral".
-  2. Đổi font size của <p>Font Size</p> thành 2X kích thước của font size root.
-  3. Đổi font weight của <p>Font Weight</p> thành 900.
-  4. Đổi font family của <p>Font Family</p> thành Google font Caveat với regular (400) font weight.
-  Link: https://fonts.google.com/specimen/Caveat
-  5. Đổi <p>Text Align</p> thành right align.
-  6. Đổi root (html element) font size thành 30px -->
+</div>
+<div class="box3">
+
+</div>
   </body>
 </html>
